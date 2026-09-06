@@ -1,0 +1,5 @@
+# Apps you use most. 07_primary_apps.sh compiles them fully ahead-of-time for faster cold starts
+# and prints the in-app settings that matter for battery. Add or remove freely.
+com.twitter.android
+com.reddit.frontpage
+com.whatsapp

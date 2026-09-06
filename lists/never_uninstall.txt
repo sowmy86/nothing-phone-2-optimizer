@@ -1,0 +1,29 @@
+# Substring patterns. Any third-party package matching one of these is never auto-uninstalled,
+# even if stale: banking, brokers, wallets, payments, 2FA. Losing local state there can hurt.
+bank
+hdfc
+sbi
+zerodha
+kite
+coin
+wallet
+paytm
+phonepe
+paisa
+cred
+dreamplug
+groww
+smallcase
+indwealth
+tickertape
+binance
+polymarket
+tether
+authenticator
+lastpass
+credentialmanager
+truecaller
+# Google service components that show up as third-party (Play reinstalls them anyway)
+com.google.android.safetycore
+com.google.android.contactkeys
+com.google.android.apps.adm

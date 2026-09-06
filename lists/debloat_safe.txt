@@ -1,0 +1,27 @@
+# SAFE tier: setup-time helpers, telemetry, ad/personalisation services, dead products.
+# Disabling these has no visible effect on daily use. pm disable-user only (reversible).
+
+# --- Google telemetry / ads / personalisation ---
+com.google.android.feedback                       # crash & feedback uploader
+com.google.mainline.telemetry                     # metrics uploader
+com.google.android.federatedcompute               # on-device federated learning
+com.google.android.ondevicepersonalization.services  # Privacy Sandbox personalisation
+com.google.android.adservices.api                 # Privacy Sandbox ads API
+com.google.mainline.adservices                    # Privacy Sandbox ads module
+com.google.android.apps.carrier.carrierwifi       # Google carrier Wi-Fi helper (IN carriers don't use it)
+com.google.android.printservice.recommendation    # print service suggestions
+
+# --- Setup-time only ---
+com.google.android.apps.restore                   # data restore tool, used once at first boot
+android.autoinstalls.config.Nothing               # preinstall config
+android.autoinstalls.config.Nothing.Pong          # preinstall config
+
+# --- Dead / redundant Google products ---
+com.google.android.videos                         # Play Movies (discontinued)
+com.google.android.apps.wellbeing                 # Digital Wellbeing: constant usage tracking, well-known drain
+
+# --- Nothing OS extras ---
+com.nothing.userguide
+com.nothing.introduction16                        # Android 16 what's-new tour
+com.nothing.logkit                                # log collection for bug reports
+com.nothing.experience                            # Nothing user-experience programme (telemetry)

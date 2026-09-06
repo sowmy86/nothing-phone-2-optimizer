@@ -1,0 +1,5 @@
+# Raw device dumps contain account, location and app-usage data. Never commit them.
+baseline/
+reports/
+*.log
+.DS_Store

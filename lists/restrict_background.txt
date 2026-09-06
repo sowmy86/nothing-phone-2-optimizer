@@ -1,0 +1,19 @@
+# Apps put into Android's "Restricted" battery mode regardless of usage.
+# They still work when opened; they just can't run in the background.
+# Chosen from this device's batterystats: X alone was ~40% of total drain.
+com.twitter.android
+com.linkedin.android
+com.snapchat.android
+com.pinterest
+com.reddit.frontpage
+com.dubox.drive            # TeraBox cloud sync
+com.tradingview.tradingviewapp
+com.microsoft.appmanager   # Link to Windows
+com.tencent.mm             # WeChat
+# Non-messaging apps that self-update or stream in the background
+com.epicgames.portal       # Epic Games launcher
+com.utorrent.client
+com.bstar.intl             # Bilibili
+com.diskwalaapp
+com.disfree.app
+com.GameLoot.android

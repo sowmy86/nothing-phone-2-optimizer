@@ -1,0 +1,21 @@
+# Packages the scripts must NEVER disable or restrict, even if they appear in another list.
+# Add your own essentials here (banking, messaging, 2FA).
+com.whatsapp
+org.telegram.messenger
+com.google.android.apps.authenticator2
+com.google.android.apps.nbu.paisa.user      # Google Pay
+com.phonepe.app
+net.one97.paytm                              # default NFC payment app on this device
+com.truecaller
+com.google.android.gms
+com.google.android.gsf
+com.android.vending
+com.google.android.apps.turbo                # Device Health Services = adaptive battery brain
+com.google.android.partnersetup
+com.nothing.launcher
+com.nothing.glyphnotification
+com.nothing.camera
+com.nothing.gallery
+com.nothing.weather                          # feeds the launcher weather widget
+com.nothing.OfflineOTAUpgradeApp
+com.google.android.calendar                  # Glyph progress is configured for it

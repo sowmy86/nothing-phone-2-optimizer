@@ -1,0 +1,35 @@
+# AGGRESSIVE tier: features some people use. Only applied with --aggressive.
+# Read each line and delete anything you rely on before running.
+
+# --- Google apps with popular third-party replacements ---
+com.google.android.apps.youtube.music             # YouTube Music
+com.google.android.apps.tachyon                   # Google Meet / Duo
+com.google.android.keep                           # Google Keep
+com.google.android.apps.docs                      # Google Drive
+com.google.android.apps.bard                      # Gemini stub
+com.google.android.apps.magazines                 # Google News
+
+# --- Android Auto: keeps a notification listener running even without a car ---
+com.google.android.projection.gearhead
+
+# --- "Hey Google" hotword detection (voice wake-up). Assistant still works via long-press. ---
+com.android.hotwordenrollment.okgoogle
+com.android.hotwordenrollment.xgoogle
+
+# --- Health ---
+com.google.android.apps.healthdata
+com.google.android.healthconnect.controller
+com.google.android.health.connect.backuprestore
+
+# --- Accessibility services (keep if you use TalkBack or Switch Access) ---
+com.google.android.marvin.talkback
+com.google.android.accessibility.switchaccess
+
+# --- Nothing OS features ---
+com.nothing.essentialintelligence                 # Essential Space (AI screenshots) - heavy
+com.nothing.aiwidget                              # AI widgets
+com.nothing.ntgamedashboard                       # Game dashboard overlay
+com.nothing.applocker                             # App Locker
+com.nothing.user.center                           # Nothing account / community (seen at 3-4% CPU idle)
+com.nothing.hearthstone                           # Nothing X (earbuds companion) - keep if you own Ear buds
+com.nothing.smartcenter
